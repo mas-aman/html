@@ -12,7 +12,7 @@ body {
   overflow:hidden;
 }
 h1,h2,h3{
-	text-align:center;
+  text-align:center;
 }
 #contactForm input:focus~label,#contactForm input:valid~label,#contactForm textarea:focus~label,#contactForm textarea:valid~label{font-size:.75em;color:red;top:-2.25rem;-webkit-transition:all 125ms ease;transition:all 125ms ease}
 #contactForm .styled-input{float:left;width:33.3333%;margin:2rem 0 0;padding:0 10px 0 0;position:relative;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
@@ -79,6 +79,6 @@ document.write('<h2>'+titleblog+'</h2>\
     <button type="submit" class="btn btn-default">Send</button>\
     <input type="text" name="_gotcha" class="gotcha" />\
   </form>\
-  <h3>Back to <a href="http://gemmovement.blogspot.com" title="Homepage">Homepage</a></h3>');
+  <h3>Back to <a href="'+ urlblog +'" title="Homepage">Homepage</a></h3>');
   </script>
 </div>
